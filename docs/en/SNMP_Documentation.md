@@ -330,7 +330,7 @@ udp6       0      0 ::1:161                 :::*                106387/snmpd
 
 ### Module Client Debugging
 
-[Download the SNMP code](././code) and upload it to the module.
+Download the SNMP code and upload it to the module.
 
 ![image-20240705095053302](../media/image-20240705095053302.png)
 
