@@ -188,7 +188,7 @@ result = client.multiget(
 client = Client("220.180.239.212", V2C("public"), port=9654)
 # The line below needs to be "awaited" to get the result.
 # This is not shown here to make it work with doctest
-coro = client.client.getnext(OID('1.2.3.4'))
+coro = client.getnext(OID('1.2.3.4'))
 print(coro)
 # coro= VarBind(oid=ObjectIdentifier(value = 1.3.6.1.2.1.1.1.0), value=OctetString(value = b'Linux localhost.localdomain 3.10.0-1127.el7.x86_64 #1 SMP Tue Mar 31 23:36:51 UTC 2020 x86_64'))
 ```
@@ -221,7 +221,7 @@ from usr.snmp_api import Client, V2C, OctetString
 from usr.snmp_api import ObjectIdentifier as OID
 
 client = Client("220.180.239.212", V2C("public"), port=9654)
-ret = client.multigetnext([OID('1.3.6.1.2.1.1.2.0'), OID('1.3.6.1.2.1.1.1.0')])
+result = client.multigetnext([OID('1.3.6.1.2.1.1.2.0'), OID('1.3.6.1.2.1.1.1.0')])
 
 # result = [VarBind(oid=ObjectIdentifier(value = 1.3.6.1.2.1.1.3.0), value=TimeTicks(value = 10932803)), VarBind(oid=ObjectIdentifier(value = 1.3.6.1.2.1.1.2.0), value=ObjectIdentifier(value = 1.3.6.1.4.1.8072.3.2.10))]
 ```
