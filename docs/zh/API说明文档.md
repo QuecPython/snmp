@@ -98,7 +98,7 @@ client = Client("220.180.239.212", V2C("public"), port=9654)
 
 ### V3
 
-V3版本提供客户, 加密和认证套件,  目前加密缺少算法, 支持认证, 认证需要在Client初始化的时候指定, 举例
+V3版本提供客户端加密和认证套件,  目前加密缺少算法, 支持认证, 认证需要在Client初始化的时候指定, 举例
 
 ```python
 from usr.snmp_common import Auth, Priv
