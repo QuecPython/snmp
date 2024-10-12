@@ -1,6 +1,6 @@
 # QuecPython SNMP协议
 
-中文| [English](./README.md) 
+中文| [English](./README.md)
 
 ## 概述
 
@@ -10,9 +10,13 @@ SNMP主要操作包括GET，用于请求设备信息；SET，用于修改设备�
 
 ## 用法
 
-- [API说明文档](./docs/zh/API说明文档.md)
-- [示例代码](./code/snmp_api.py)
-- [SNMP使用文档](./docs/zh/SNMP使用文档.md)
+- [SNMP客户端API说明文档](./client/docs/zh/SNMP客户端API说明文档.md)
+- [SNMP客户端示例代码](./client/snmp_api.py)
+- [SNMP客户端使用文档](./client/docs/zh/SNMP客户端使用文档.md)
+
+- [SNMP代理端API说明文档](./server/docs/zh/SNMP代理端API说明文档.md)
+- [SNMP代理端示例代码](./server/snmp_agent.py)
+- [SNMP代理端使用文档](./server/docs/zh/SNMP代理端使用文档.md)
 
 ## 贡献
 

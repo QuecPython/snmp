@@ -1,4 +1,4 @@
-# QuecPython SNMP Documentation
+# QuecPython SNMP Client Documentation
 
 ### Introduction to SNMP
 
