@@ -8,6 +8,10 @@
 
 SNMP主要操作包括GET，用于请求设备信息；SET，用于修改设备配置；以及TRAP，用于设备向管理站报告异常。随着版本的发展，SNMP增加了安全功能，最新的SNMPv3版本支持消息完整性、认证和加密，以提高通信安全。
 
+版本支持：当前代码中的`client`和`server`都支持`SNMPv1`、`SNMPv2c`、`SNMPv3`三个版本。
+
+方法支持：当前代码中的`client`支持get、multiget、getnext、multigetnext、bulkget、set、multiset、walk、multiwalk、bulkwalk、table、bulktable等方法；当前代码中的`server`支持get、set、trap等方法。
+
 ## 用法
 
 - [SNMP客户端API说明文档](./client/docs/zh/SNMP客户端API说明文档.md)

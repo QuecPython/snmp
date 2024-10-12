@@ -8,6 +8,10 @@ The Simple Network Management Protocol (SNMP) is a communication protocol used f
 
 The main SNMP operations include GET, used to request device information; SET, used to modify device configurations; and TRAP, used for devices to report anomalies to the management station. As the protocol has evolved, SNMP has enhanced its security features. The latest version, SNMPv3, supports message integrity, authentication, and encryption to improve communication security.
 
+Version support: Both `client` and `server` in the current code support three versions: `SNMPv1`, `SNMPv2c`, and `SNMPv3`.
+
+Method support: The `client` in the current code supports methods such as get, multiget, getnext, multigetnext, bulkget, set, multiset, walk, multiwalk, bulkwalk, table, bulktable and so on; The `server` in the current code supports methods such as get, set, trap and so on.
+
 ## Usage
 
 - [SNMP Client API Reference](./client/docs/en/SNMP_Client_API_Reference.md)
