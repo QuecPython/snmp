@@ -10,9 +10,13 @@ The main SNMP operations include GET, used to request device information; SET, u
 
 ## Usage
 
-- [API_Reference](./docs/en/API_Reference.md)
-- [Sample Code](./code/snmp_api.py)
-- [SNMP Documentation](./docs/en/SNMP_Documentation.md)
+- [SNMP Client API Reference](./client/docs/en/SNMP_Client_API_Reference.md)
+- [SNMP Client Sample Code](./client/snmp_api.py)
+- [SNMP Client Documentation](./client/docs/en/SNMP_Client_Documentation.md)
+
+- [SNMP Agent API Reference](./server/docs/en/SNMP_Agent_API_Reference.md)
+- [SNMP Agent Sample Code](./server/snmp_agent.py)
+- [SNMP Agent Documentation](./server/docs/en/SNMP_Agent_Documentation.md)
 
 ## Contribution
 

@@ -1,4 +1,4 @@
-# QuecPython SNMP API Documentation
+# QuecPython SNMP Client API Documentation
 
 This module contains high-level functions for accessing the SNMP library.
 

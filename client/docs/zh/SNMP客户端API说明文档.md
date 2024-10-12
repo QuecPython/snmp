@@ -1,4 +1,4 @@
-# QuecPython SNMP API说明文档
+# QuecPython SNMP 客户端API说明文档
 
 该模块包含访问snmp库的高级函数
 
